@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="back_image" format="reference" />
+    <attr name="maskDrawable" format="reference|color" />
+    <attr name="strokeWidth" format="integer" />
+    <attr name="text" format="string" />
+    <attr name="textSize" format="dimension" />
+    <attr name="textColor" format="color" />
+    <attr name="type" format="enum">
+        <enum name="drawable" value="0" />
+        <enum name="text" value="1" />
+    </attr>
+    <attr name="autoClear" format="boolean" />
+    <declare-styleable name="GuaGuaKa">
+        <attr name="strokeWidth" />
+        <attr name="maskDrawable" />
+        <attr name="back_image" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="textColor" />
+        <attr name="type" />
+        <attr name="autoClear" />
+    </declare-styleable>
+</resources>
